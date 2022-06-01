@@ -1,0 +1,47 @@
+@font-face {
+    font-family: light;
+    src: url(../FUENTES/Montserrat-Black.ttf);
+    font-weight: 200;
+}
+
+@font-face {
+    font-family: titulo;
+    src: url(../FUENTES/Photoshoot.ttf);
+    font-weight: 200;
+}
+
+body {
+    font-family: light;
+    font-size: 50%;
+
+}
+
+p {
+    font-family: titulo;
+    font-weight: 300;
+    font-size: 3em;
+}
+
+
+h1 {
+
+    font-family: light;
+    font-weight: 900;
+    font-size: 25.6em;
+    margin: 0em;
+
+}
+
+#parrafo {
+    font-weight: 400;
+    text-transform: uppercase;
+    font-size:4em;
+
+}
+
+@media (max-width: 768px){
+
+body { font-size: 60%;}
+
+
+}
